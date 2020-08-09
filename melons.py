@@ -71,7 +71,7 @@ class InternationalMelonOrder(AbstractMelonOrder):
         return self.country_code
     
     def get_total(self):
-        """Add $3 interenational fee."""
+        """Add $3 international fee."""
 
         international_shipping_fee = 3
         total = super().get_total() + international_shipping_fee
